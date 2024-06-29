@@ -1,0 +1,111 @@
+/* Overall Container */
+.bus-search-container {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: linear-gradient(90deg, rgba(0,123,255,0.8) 0%, rgba(0,123,255,0.7) 100%), url('https://via.placeholder.com/1500') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+    border-radius: 10px;
+    animation: slideDown 1s ease-in-out;
+  }
+  
+  @keyframes slideDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Form Container */
+  .search-form-container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: -40px;
+    z-index: 1;
+    position: relative;
+    animation: fadeIn 1.2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Results Container */
+  .results-container {
+    margin-top: 20px;
+  }
+  
+  /* Card Design */
+  .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-subtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom Animations */
+  .hover-zoom {
+    overflow: hidden;
+  }
+  
+  .hover-zoom img {
+    transition: transform 0.5s ease;
+  }
+  
+  .hover-zoom:hover img {
+    transform: scale(1.1);
+  }
+  

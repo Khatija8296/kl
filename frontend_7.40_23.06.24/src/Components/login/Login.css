@@ -1,0 +1,26 @@
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .login-form {
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+
+  .cart-modal-lg .modal-dialog {
+    max-width: 80%; /* Adjust the maximum width as per your requirement */
+}
+

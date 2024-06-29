@@ -1,0 +1,220 @@
+.modal-left .modal-dialog {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+
+/* Add any additional styling as needed */
+.product_card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange child elements vertically */
+    height: 100%; /* Ensure the height of each product card is 100% */
+    
+}
+.product_card {
+    margin-bottom: 20px; /* Add bottom space for each card */
+  }
+
+.product_card figure {
+    margin-bottom: 10px;
+}
+
+.product_card .card_details {
+    padding: 10px;
+    flex-grow: 1; /* Allow the details section to grow and take up remaining space */
+}
+
+/* Add any additional styling as needed */
+.add-to-cart-button {
+    border: 1px solid black; /* Add black border */
+    display: block; /* Ensure the button is displayed as a block element */
+    margin-top: 10px; /* Add some top margin */
+    width: fit-content; /* Adjust the button width to fit its content */
+    background-color: #007bff; /* Add background color */
+    color: #fff;
+}
+
+.add-to-cart-button.left {
+    float: left; /* Align the button to the left */
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
+
+
+/* Add this CSS to your global CSS file or a separate print CSS file */
+/* Add this CSS to your global CSS file or a separate print CSS file */
+
+ 
+
+
+/* .container {
+    max-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cart_items {
+    margin-bottom: 20px;
+}
+
+.cart_items_img {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.cart_items_img img {
+    max-width: 100px;
+    height: auto;
+}
+
+.cart_items_details {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart_items_actions {
+    display: flex;
+    align-items: center;
+} 
+*/
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+.cart_item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item_left img {
+    max-width: 100px;
+    height: auto;
+}
+
+.item_right {
+    flex: 1;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_details h4 {
+    margin-bottom: 5px;
+}
+
+.item_actions {
+    display: flex;
+    align-items: center;
+}
+
+.item_actions button {
+    margin-left: 5px;
+}
+
+.cart_summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button_container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.button_container button {
+    margin-right: 10px; /* Adjust margin between buttons as needed */
+}
+
+.discount_input{
+ margin-left: 5px;   
+}
+
+
+.lk {
+    margin-top: 2%;
+    text-align: center; /* Center align text */
+    color: blue; /* Change text color to blue */
+}
+
+/* App.css */
+.transparent-form {
+    background-color: rgba(255, 255, 255, 0.3); /* More transparency with 30% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds some shadow to make it stand out */
+}
+
+
+
+/* App.css */
+.container {
+    margin-top: 20px;
+   
+  }
+  
+  h2, h3, h4 {
+    text-align: center;
+  }
+  
+  hr {
+    border-top: 1px solid #ccc;
+  }
+  
+  .bus-details {
+    margin-bottom: 20px;
+  }
+  
+  .bus-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bus-table td, .bus-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .bus-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  .passenger-form {
+    margin-bottom: 20px;
+  }
+  
+  .passenger-form .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .totals {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .totals h4 {
+    margin: 5px 0;
+  }
+  
+  .btn-primary {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
